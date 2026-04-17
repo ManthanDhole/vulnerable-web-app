@@ -7,7 +7,7 @@ const { exec } = require('child_process');
 const crypto = require('crypto');
 const mongoose = require('mongoose');
 const minimist = require('minimist');
-
+const aws_secret = "AKIAIMNO887367B898WQA"; // This is a fake key for testing
 const app = express();
 const port = 3000;
 
